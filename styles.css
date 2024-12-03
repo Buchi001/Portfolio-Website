@@ -62,6 +62,7 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: white;
 }
+
 @media(max-width:768px) {
   .hamburger {
     display: block;
@@ -77,7 +78,9 @@ a {
     transform: translateY(-8px) rotate(-45deg);
   }
 .nav-menu {
+  display: flex;
   position: fixed;
+  background-color: #262626;
   left: -100%;
   top: 70px;
   gap: 0;
@@ -87,7 +90,7 @@ a {
   transition: 0.3s;
 }
 
-.nav.item {
+.nav-item {
   margin: 16px 0;
 }
 
